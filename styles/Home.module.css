@@ -2,21 +2,19 @@
   font-family: roboto-slab;
   src: url('/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf')
 }
+
 .left {
   background-color: gainsboro;
   grid-area: left;
-  background-repeat: repeat-y;
 }
 .right {
   background-color: royalblue;
   grid-area: right;
-  background-repeat: repeat-y;
-  content: "";
 }
 
 .background {
   width: 100%;
-  height: 100em;
+  min-height: 100rem;
   position: absolute;
   display: grid;
   grid-template-columns: 75% 25%;
